@@ -74,7 +74,7 @@ function DeriveDemo() {
           {'  '}<span className="keyword">return</span>{' gender === '}<span className="string">"male"</span>{' ? '}<span className="string">"boy"</span>{' : '}<span className="string">"girl"</span>;<br />
           {'}'}<br />
           <br />
-          t<span className="string">{"`The ${derive(getSubject(gender))} is playing.`"}</span>
+          t<span className="string">{"`The ${derive(getSubject(gender))} is playing in the park.`"}</span>
         </code>
       </div>
     </div>
@@ -128,7 +128,14 @@ function App() {
             <span className="keyword">export const</span>{' NAV_ITEMS = ['}<br />
             {'  { label: t('}<span className="string">'Home'</span>{'), path: '}<span className="string">'/'</span>{' },'}<br />
             {'  { label: t('}<span className="string">'About'</span>{'), path: '}<span className="string">'/about'</span>{' },'}<br />
-            {'];'}
+            {'  { label: t('}<span className="string">'Contact'</span>{'), path: '}<span className="string">'/contact'</span>{' },'}<br />
+            {'];'}<br />
+            <br />
+            <span className="keyword">export const</span>{' ERROR_MESSAGES = {'}<br />
+            {'  notFound: t('}<span className="string">'Page not found'</span>{'),'}<br />
+            {'  unauthorized: t('}<span className="string">'You do not have permission to view this page'</span>{'),'}<br />
+            {'  serverError: t('}<span className="string">'Something went wrong. Please try again later.'</span>{'),'}<br />
+            {'};'}
           </code>
         </div>
 
