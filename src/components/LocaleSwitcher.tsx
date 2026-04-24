@@ -1,12 +1,16 @@
-import { t } from 'gt-react/browser';
 import { setLocale, getLocale } from 'gt-react/browser';
-import { useGTClass } from 'gt-react';
+import { getLocaleProperties } from 'generaltranslation';
+
+function capitalize(str: string) {
+  return str.charAt(0).toUpperCase() + str.slice(1);
+}
 
 const codes = ["en", "es", "fr", "ja"];
 
 export function LocaleSwitcher() {
-  const gtClass = useGTClass();
-  const locales = codes.map((code) => ({ code, label: gtClass.getLocaleProperties(code).nativeNameWithRegionCode }));
+  const locales = codes.map((code) => ({ code, label: 
+    capitalize(getLocaleProperties(code).nativeNameWithRegionCode)
+  }));
 
   return (
     <select
