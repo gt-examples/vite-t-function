@@ -6,7 +6,7 @@ import './App.css';
 
 // Tagged template literal — module-level
 const heroTitle = t`Welcome to the t() demo`;
-const heroSubtitle = t`Synchronous, module-level translations with no React context required.`;
+const heroSubtitle = t`Synchronous, module-level localization with no React context required.`;
 
 function App() {
   const name = 'World';

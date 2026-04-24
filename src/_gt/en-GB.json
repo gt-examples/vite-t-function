@@ -1,0 +1,23 @@
+{
+  "055bbad7c8d26838": "Module-level strings",
+  "06cdd94cddc6eee5": "Page not found",
+  "0be0049390aa2b5e": "The boy is playing in the park.",
+  "0e790c06062bf8c0": "Welcome to the t() demo",
+  "0ef8ac11868c2cb9": "Synchronous, module-level localisation with no React context required.",
+  "2ecf88ef9e8e4259": "Home",
+  "34fa6075fc71b87b": "Girl",
+  "3cb4140d7e5a9007": "Tagged templates",
+  "4add1139ae8ec5c1": "Contact",
+  "5d144c0238487f63": "The girl is playing in the park.",
+  "7c4b9a76c475374b": "Translations are resolved at import time. No hooks, no context, no wrappers.",
+  "8993313d075963a3": "Change the language above — the page reloads with the new translations.",
+  "9b10fddc2acf321d": "Boy",
+  "9bfcdc8e6b483e68": "Something went wrong. Please try again later.",
+  "b6e8fb9ea521ebe1": "derive() — grammatical agreement",
+  "baeae34b255f5950": "derive() tells the compiler to create separate translations for each possible value, preserving grammatical agreement across languages.",
+  "c13d57343e16b892": "Zero overhead",
+  "c386de174b0b52bd": "Hello, {0}! Tagged template literals make interpolation feel natural.",
+  "c9da0ce9b0373d1e": "You do not have permission to view this page",
+  "daa56c3a5797c9a9": "bootstrap() loads all translations up front. t() reads them synchronously — no async, no loading states.",
+  "f41ea186c275b56e": "About"
+}

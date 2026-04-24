@@ -1,11 +1,12 @@
 import { setLocale, getLocale } from 'gt-react/browser';
 import { getLocaleProperties } from 'generaltranslation';
+import gtConfig from '../../gt.config.json';
 
 function capitalize(str: string) {
   return str.charAt(0).toUpperCase() + str.slice(1);
 }
 
-const codes = ["en", "es", "fr", "ja"];
+const codes = [gtConfig.defaultLocale, ...gtConfig.locales];
 
 export function LocaleSwitcher() {
   const locales = codes.map((code) => ({ code, label: 

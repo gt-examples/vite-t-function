@@ -4,22 +4,27 @@
   "entries": [
     {
       "fileId": "879f3a5f954ee8b75bf1e91f4ea9916b41c933e5beba7eb6362647a637c9c66d",
-      "versionId": "beb686bb7d89b631f10e9bd762d8b1808537a72aff02bcdb7ec9beeabf4733c1",
+      "versionId": "1a451bd11e6d94ca78ef0b7aa165cc080fff003289c61031887471ff6c9ca71b",
       "translations": {
-        "es": {
-          "updatedAt": "2026-04-24T12:16:15.814Z",
-          "fileName": "/Users/mossbryophyta/workspace/vite-t-function/src/_gt/es.json",
-          "postProcessHash": "a481a3f77c205deff0cedb9e3c40b665468ddfb645351336093fc72736b0626f"
+        "en-GB": {
+          "updatedAt": "2026-04-24T13:54:25.881Z",
+          "fileName": "/Users/archiemckenzie/Desktop/vite-t-function/src/_gt/en-GB.json",
+          "postProcessHash": "2de46799eedb676b61c2839e63eb480267ef6485faf4558852db9e6ba472a140"
         },
-        "fr": {
-          "updatedAt": "2026-04-24T12:16:15.816Z",
-          "fileName": "/Users/mossbryophyta/workspace/vite-t-function/src/_gt/fr.json",
-          "postProcessHash": "9ecefffa863e2d6861641a5c3af5273fc345c332300f524fcbcc5d58d08ca2b8"
+        "es": {
+          "updatedAt": "2026-04-24T13:54:25.883Z",
+          "fileName": "/Users/archiemckenzie/Desktop/vite-t-function/src/_gt/es.json",
+          "postProcessHash": "44018a6135c173a6368e1fd3d6caeb07313667260c1bbad5d0dfb46aae0d8042"
         },
         "ja": {
-          "updatedAt": "2026-04-24T12:16:15.816Z",
-          "fileName": "/Users/mossbryophyta/workspace/vite-t-function/src/_gt/ja.json",
-          "postProcessHash": "8b1041aae787a32daf1b71eebfc0bf9faa7a49f26a85be80b2ce719cf108d2bb"
+          "updatedAt": "2026-04-24T13:54:25.883Z",
+          "fileName": "/Users/archiemckenzie/Desktop/vite-t-function/src/_gt/ja.json",
+          "postProcessHash": "368e873952a297f0306666051a4f60aa7258a88deff7c9d43321a3e8c1a4f392"
+        },
+        "fr": {
+          "updatedAt": "2026-04-24T13:54:25.884Z",
+          "fileName": "/Users/archiemckenzie/Desktop/vite-t-function/src/_gt/fr.json",
+          "postProcessHash": "4b36e705b95e3ef89e966067d8cea0d08c4f7463d5a5752e655709d75859d8ae"
         }
       },
       "fileName": "__INTERNAL_GT_TEMPLATE_NAME__",
