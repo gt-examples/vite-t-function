@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { t } from 'gt-react/browser';
 import { setLocale, getLocale } from 'gt-react/browser';
-import { derive } from 'gt-react';
+import { derive, useGTClass } from 'gt-react';
 import { NAV_ITEMS } from './constants';
 import './App.css';
 
@@ -9,13 +9,10 @@ import './App.css';
 const heroTitle = t`Welcome to the t() demo`;
 const heroSubtitle = t`Synchronous, module-level translations with no React context required.`;
 
+const codes = ["en", "es", "fr", "ja"];
 function LocaleSwitcher() {
-  const locales = [
-    { code: 'en', label: 'English' },
-    { code: 'es', label: 'Español' },
-    { code: 'fr', label: 'Français' },
-    { code: 'ja', label: '日本語' },
-  ];
+  const gtClass = useGTClass();
+  const locales = codes.map((code) => ({ code, label: gtClass.getLocaleProperties(code).nativeNameWithRegionCode }));
 
   return (
     <select
