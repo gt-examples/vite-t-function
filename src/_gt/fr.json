@@ -1,0 +1,17 @@
+{
+  "055bbad7c8d26838": "Chaînes au niveau du module",
+  "06cdd94cddc6eee5": "Page introuvable",
+  "0e790c06062bf8c0": "Bienvenue dans la démo de t()",
+  "2ecf88ef9e8e4259": "Accueil",
+  "3cb4140d7e5a9007": "Templates balisés",
+  "4add1139ae8ec5c1": "Contact",
+  "7c4b9a76c475374b": "Les traductions sont résolues à l’import. Aucun hook, aucun contexte, aucun wrapper.",
+  "8993313d075963a3": "Changez la langue ci-dessus — la page se recharge avec les nouvelles traductions.",
+  "9822c922eb50e24b": "Cette application utilise bootstrap() et la fonction t() pour des traductions synchrones au niveau du module, sans contexte React.",
+  "9bfcdc8e6b483e68": "Une erreur s’est produite. Veuillez réessayer plus tard.",
+  "c13d57343e16b892": "Zéro surcoût",
+  "c386de174b0b52bd": "Bonjour, {0} ! Les littéraux de template balisés rendent l’interpolation naturelle.",
+  "c9da0ce9b0373d1e": "Vous n’êtes pas autorisé à afficher cette page",
+  "daa56c3a5797c9a9": "bootstrap() charge toutes les traductions dès le départ. t() les lit de manière synchrone — pas d’async, pas d’état de chargement.",
+  "f41ea186c275b56e": "À propos"
+}
