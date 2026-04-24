@@ -161,6 +161,77 @@ h1 {
   color: #444;
 }
 
+/* Derive demo */
+.derive-demo {
+  border: 1px solid #1a1a1a;
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 3rem;
+}
+
+.derive-demo h2 {
+  font-size: 1.0625rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.01em;
+}
+
+.derive-description {
+  color: #666;
+  font-size: 0.8125rem;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+}
+
+.derive-toggle {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.toggle-btn {
+  font-family: inherit;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  padding: 8px 20px;
+  border-radius: 6px;
+  border: 1px solid #333;
+  background: transparent;
+  color: #999;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.toggle-btn:hover {
+  border-color: #555;
+  color: #fff;
+}
+
+.toggle-btn.active {
+  background: #fff;
+  color: #000;
+  border-color: #fff;
+}
+
+.derive-result {
+  background: #0a0a0a;
+  border: 1px solid #1a1a1a;
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.derive-sentence {
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+.derive-demo .code-block {
+  margin-bottom: 0;
+}
+
 /* Hint */
 .hint {
   text-align: center;

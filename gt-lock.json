@@ -4,22 +4,22 @@
   "entries": [
     {
       "fileId": "879f3a5f954ee8b75bf1e91f4ea9916b41c933e5beba7eb6362647a637c9c66d",
-      "versionId": "050e604a233be424a766e80e2158a18b316b6b9fe7b9ed22d2148f765dd293db",
+      "versionId": "beb686bb7d89b631f10e9bd762d8b1808537a72aff02bcdb7ec9beeabf4733c1",
       "translations": {
-        "fr": {
-          "updatedAt": "2026-04-24T12:13:56.284Z",
-          "fileName": "/Users/mossbryophyta/workspace/vite-t-function/src/_gt/fr.json",
-          "postProcessHash": "a948f7b570e51c61e12854ed8e0d39e93f99b976267adae4026255043a009194"
-        },
         "es": {
-          "updatedAt": "2026-04-24T12:13:56.285Z",
+          "updatedAt": "2026-04-24T12:16:15.814Z",
           "fileName": "/Users/mossbryophyta/workspace/vite-t-function/src/_gt/es.json",
-          "postProcessHash": "0411db6af281aae313dd35c671a9b892132314b2a0d074e1b7e2b88009ee052d"
+          "postProcessHash": "a481a3f77c205deff0cedb9e3c40b665468ddfb645351336093fc72736b0626f"
+        },
+        "fr": {
+          "updatedAt": "2026-04-24T12:16:15.816Z",
+          "fileName": "/Users/mossbryophyta/workspace/vite-t-function/src/_gt/fr.json",
+          "postProcessHash": "9ecefffa863e2d6861641a5c3af5273fc345c332300f524fcbcc5d58d08ca2b8"
         },
         "ja": {
-          "updatedAt": "2026-04-24T12:13:56.286Z",
+          "updatedAt": "2026-04-24T12:16:15.816Z",
           "fileName": "/Users/mossbryophyta/workspace/vite-t-function/src/_gt/ja.json",
-          "postProcessHash": "2631814a0921b6e92e0441e61274983879bde2fc7a93758cd7a311d27c841002"
+          "postProcessHash": "8b1041aae787a32daf1b71eebfc0bf9faa7a49f26a85be80b2ce719cf108d2bb"
         }
       },
       "fileName": "__INTERNAL_GT_TEMPLATE_NAME__",
